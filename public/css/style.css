@@ -1,0 +1,186 @@
+/* General Reset and Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Header & Navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    color: #f4f4f4;
+}
+
+/* Main Content */
+main {
+    margin-top: 80px; /* To ensure header doesn't overlap content */
+}
+
+/* Intro Section */
+/* Intro Section */
+#intro {
+    height: 100vh;
+    background-image: url('https://www.google.com/imgres?q=portfolio%20website%20background%20images%20link%20which&imgurl=https%3A%2F%2Fmedia.wired.com%2Fphotos%2F648ce85eeb3f06fa8140d00a%2F16%3A9%2Fw_2400%2Ch_1350%2Cc_limit%2FBest-Websites-To-Show-Off-Your-Portfolio-Business-1357904435.jpg&imgrefurl=https%3A%2F%2Fwww.wired.com%2Fstory%2Fthe-best-websites-to-show-off-your-portfolio-of-work%2F&docid=KS3PFIX7fV0fnM&tbnid=bjA9BcffJ5OyeM&vet=12ahUKEwidldHJr_mJAxX_hlYBHedrOJMQM3oECBwQAA..i&w=2400&h=1350&hcb=2&ved=2ahUKEwidldHJr_mJAxX_hlYBHedrOJMQM3oECBwQAA'); /* Replace this with your own image URL */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#intro h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#intro p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Sections (About, Skills, Projects) */
+section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+
+section h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Skills */
+#skills {
+    background-color: #f4f4f4;
+}
+
+#skills ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#skills ul li {
+    background-color: #333;
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+/* Projects */
+#projects {
+    background-color: #fff;
+}
+
+.project-card {
+    background-color: #f8f9fa;
+    margin: 15px;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Contact Form */
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 16px;
+}
+html {
+    scroll-behavior: smooth;
+}

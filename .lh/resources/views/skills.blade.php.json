@@ -1,0 +1,22 @@
+{
+    "sourceFile": "resources/views/skills.blade.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1732598705744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1732600518446,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,9 @@\n-<h1>Skills</h1>\r\n-<ul>\r\n-    <li>Laravel</li>\r\n-    <li>Vue.js</li>\r\n-    <li>PHP</li>\r\n-    <li>JavaScript</li>\r\n-    <!-- Add more skills as needed -->\r\n-</ul>\r\n+<section id=\"skills\">\r\n+    <h1>Skills</h1>\r\n+    <ul>\r\n+        <li>Laravel</li>\r\n+        <li>Vue.js</li>\r\n+        <li>PHP</li>\r\n+        <li>JavaScript</li>\r\n+    </ul>\r\n+</section>\r\n"
+                }
+            ],
+            "date": 1732598705744,
+            "name": "Commit-0",
+            "content": "<h1>Skills</h1>\r\n<ul>\r\n    <li>Laravel</li>\r\n    <li>Vue.js</li>\r\n    <li>PHP</li>\r\n    <li>JavaScript</li>\r\n    <!-- Add more skills as needed -->\r\n</ul>\r\n"
+        }
+    ]
+}

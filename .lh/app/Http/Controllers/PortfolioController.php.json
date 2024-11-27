@@ -1,0 +1,26 @@
+{
+    "sourceFile": "app/Http/Controllers/PortfolioController.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1732598625466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1732598872601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     }\n \n     public function about()\n     {\n-        return view('about');\n+        return view('about resources\\views\\about.blae.php');\n     }\n \n     public function skills()\n     {\n"
+                },
+                {
+                    "date": 1732598884079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     }\n \n     public function about()\n     {\n-        return view('about resources\\views\\about.blae.php');\n+        return view('about');\n     }\n \n     public function skills()\n     {\n"
+                }
+            ],
+            "date": 1732598625466,
+            "name": "Commit-0",
+            "content": "<?php\nnamespace App\\Http\\Controllers;\n\nuse Illuminate\\Http\\Request;\n\nclass PortfolioController extends Controller\n{\n    public function index()\n    {\n        return view('home');\n    }\n\n    public function about()\n    {\n        return view('about');\n    }\n\n    public function skills()\n    {\n        return view('skills');\n    }\n\n    public function projects()\n    {\n        return view('projects');\n    }\n\n    public function contact()\n    {\n        return view('contact');\n    }\n}\n"
+        }
+    ]
+}

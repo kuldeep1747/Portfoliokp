@@ -1,0 +1,18 @@
+{
+    "sourceFile": "resources/views/projects.blade.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1732598732348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1732598732348,
+            "name": "Commit-0",
+            "content": "<h1>My Projects</h1>\r\n<div class=\"projects\">\r\n    <div class=\"project\">\r\n        <h3>Project 1</h3>\r\n        <p>Description of your project here.</p>\r\n    </div>\r\n    <!-- Add more projects -->\r\n</div>\r\n"
+        }
+    ]
+}

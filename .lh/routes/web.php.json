@@ -1,0 +1,18 @@
+{
+    "sourceFile": "routes/web.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1732598606317,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1732598606317,
+            "name": "Commit-0",
+            "content": "<?php\n\nuse Illuminate\\Support\\Facades\\Route;\n\n// Route::get('/', function () {\n//     return view('welcome');\n// });\n\nuse App\\Http\\Controllers\\PortfolioController;\n\nRoute::get('/', [PortfolioController::class, 'index'])->name('home');\nRoute::get('/about', [PortfolioController::class, 'about'])->name('about');\nRoute::get('/skills', [PortfolioController::class, 'skills'])->name('skills');\nRoute::get('/projects', [PortfolioController::class, 'projects'])->name('projects');\nRoute::get('/contact', [PortfolioController::class, 'contact'])->name('contact');\n"
+        }
+    ]
+}

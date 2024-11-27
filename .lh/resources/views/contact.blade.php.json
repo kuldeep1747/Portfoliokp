@@ -1,0 +1,22 @@
+{
+    "sourceFile": "resources/views/contact.blade.php",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1732598758575,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1732600526092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,16 @@\n-<h1>Contact Me</h1>\r\n-<form action=\"{{ route('contact') }}\" method=\"POST\">\r\n-    @csrf\r\n-    <label for=\"name\">Your Name</label>\r\n-    <input type=\"text\" name=\"name\" id=\"name\" required>\r\n+<section id=\"contact\">\r\n+    <h1>Contact Me</h1>\r\n+    <form action=\"{{ route('contact') }}\" method=\"POST\">\r\n+        @csrf\r\n+        <label for=\"name\">Your Name</label>\r\n+        <input type=\"text\" name=\"name\" id=\"name\" required>\r\n \r\n-    <label for=\"email\">Your Email</label>\r\n-    <input type=\"email\" name=\"email\" id=\"email\" required>\r\n+        <label for=\"email\">Your Email</label>\r\n+        <input type=\"email\" name=\"email\" id=\"email\" required>\r\n \r\n-    <label for=\"message\">Your Message</label>\r\n-    <textarea name=\"message\" id=\"message\" required></textarea>\r\n+        <label for=\"message\">Your Message</label>\r\n+        <textarea name=\"message\" id=\"message\" required></textarea>\r\n \r\n-    <button type=\"submit\">Send Message</button>\r\n-</form>\r\n+        <button type=\"submit\">Send Message</button>\r\n+    </form>\r\n+</section>\r\n"
+                }
+            ],
+            "date": 1732598758575,
+            "name": "Commit-0",
+            "content": "<h1>Contact Me</h1>\r\n<form action=\"{{ route('contact') }}\" method=\"POST\">\r\n    @csrf\r\n    <label for=\"name\">Your Name</label>\r\n    <input type=\"text\" name=\"name\" id=\"name\" required>\r\n\r\n    <label for=\"email\">Your Email</label>\r\n    <input type=\"email\" name=\"email\" id=\"email\" required>\r\n\r\n    <label for=\"message\">Your Message</label>\r\n    <textarea name=\"message\" id=\"message\" required></textarea>\r\n\r\n    <button type=\"submit\">Send Message</button>\r\n</form>\r\n"
+        }
+    ]
+}
